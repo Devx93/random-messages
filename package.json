@@ -1,15 +1,23 @@
 {
   "name": "devx-random-messages",
   "version": "1.0.0",
-  "description": "",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Devx",
   "license": "MIT",
-  "bin" : {
-    "random-msg": "./bin/global.js"
+  "bin": {
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devx93/random-messages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Devx93/random-messages/issues"
+  },
+  "homepage": "https://github.com/Devx93/random-messages#readme",
+  "description": ""
 }
